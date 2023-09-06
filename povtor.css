@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 300px;
+    height: 2100px;
+    border-radius: 10px;
+    box-shadow: 10px 0 100px 1px;
+    border-bottom: 15px solid rgb(0, 14, 95);
+    display: flex;
+    background-color:rgb(0, 14, 95);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card:hover svg{
+    fill:rgb(0, 14, 95)
+}
+
+.card:hover{
+    background-color: rgb(255, 255, 255);
+}
+.card svg{
+   background-color: white;
+   width: 70px;
+   height: 70px;
+}
+
